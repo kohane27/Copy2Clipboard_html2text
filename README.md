@@ -2,7 +2,7 @@
 
 <p align="center">
 <a title="License: GPL v3" href="https://www.gnu.org/licenses/gpl-3.0"><img  src="https://img.shields.io/badge/License-GPLv3-blue.svg"></a>
-<a title="Rate on AnkiWeb" href="https://ankiweb.net/shared/info/1771074083"><img src="https://glutanimate.com/logos/ankiweb-rate.svg"></a>
+<a title="Rate on AnkiWeb" href="https://ankiweb.net/shared/info/703825446"><img src="https://glutanimate.com/logos/ankiweb-rate.svg"></a>
 <br>
 </p>
 
@@ -12,22 +12,21 @@ Copy2Clipboard(html2text) automatically copies a field's content to the clipboar
 
 This add-on is built on [Copy2Clipboard](https://ankiweb.net/shared/info/1525025114). I simply bundled [html2text](https://github.com/Alir3z4/html2text) to convert HTML to Markdown-formatted text.
 
-The original Copy2Clipboard copies the underlying text, which is probably not what's desired. For example, the following content is copied:
+The original Copy2Clipboard copies the underlying html, which is probably not what you want. For example, the following content is copied:
 
 ```code
-<pre style="display:flex; justify-content:center;"><code class="language-rust hljs"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
+<pre"><code class="language-rust hljs"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
 &nbsp;&nbsp;&nbsp; <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Hello World!"</span>);
 }</code></pre>
 ```
 
-The content copied from this add-on:
+Content copied from this add-on:
 
 ```code
-    fn main() {
-        println!("Hello World!");
-    }
+fn main() {
+    println!("Hello World!");
+}
 ```
-
 
 ## Default behavior
 
@@ -37,11 +36,9 @@ When the answer side is shown: nothing will be copied to the clipboard.
 
 To modify the default behavior, go to Tools -> Add-ons -> Choose `Copy2Clipboard(html2text)` -> Click `Config` -> edit `"questionField"` and `"answerField"` according to your needs
 
-### Installation
+## Installation through AnkiWeb
 
-#### AnkiWeb
-
-The easiest way to install Review Heatmap is through [AnkiWeb](https://ankiweb.net/shared/info/1771074083).
+The easiest way to install Copy2Clipboard(html2text) is through [AnkiWeb](https://ankiweb.net/shared/info/703825446).
 
 ## License and Credits
 
