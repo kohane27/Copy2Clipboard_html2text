@@ -15,7 +15,7 @@ This add-on is built on [Copy2Clipboard](https://ankiweb.net/shared/info/1525025
 The original Copy2Clipboard copies the underlying html, which is probably not what you want. For example, the following content is copied:
 
 ```code
-<pre"><code class="language-rust hljs"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
+<pre><code class="language-rust hljs"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
 &nbsp;&nbsp;&nbsp; <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Hello World!"</span>);
 }</code></pre>
 ```
