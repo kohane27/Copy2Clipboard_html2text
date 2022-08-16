@@ -12,7 +12,11 @@ Copy2Clipboard(html2text) automatically copies a field's content to the clipboar
 
 This add-on is built on [Copy2Clipboard](https://ankiweb.net/shared/info/1525025114). I simply bundled [html2text](https://github.com/Alir3z4/html2text) to convert HTML to Markdown-formatted text.
 
-The original Copy2Clipboard copies the underlying html, which is probably not what you want. For example, the following content is copied:
+The original Copy2Clipboard copies the underlying html, which is probably not what you want. For example, given the following front side:
+
+![anki](./anki.png)
+
+the following content is copied:
 
 ```html
 <pre><code class="language-rust hljs"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
@@ -20,7 +24,7 @@ The original Copy2Clipboard copies the underlying html, which is probably not wh
 }</code></pre>
 ```
 
-Content copied from this add-on:
+With this add-on, the following is copied:
 
 ```rust
 fn main() {
