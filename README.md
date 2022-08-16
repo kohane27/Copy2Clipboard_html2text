@@ -19,7 +19,7 @@ The original Copy2Clipboard copies the underlying html, which is probably not wh
 the following content is copied:
 
 ```html
-<pre><code class="language-rust hljs"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
+<pre style="display:flex; justify-content:center;"><code class="language-rust hljs"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
 &nbsp;&nbsp;&nbsp; <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Hello World!"</span>);
 }</code></pre>
 ```
@@ -27,9 +27,9 @@ the following content is copied:
 With this add-on, the following is copied:
 
 ```rust
-fn main() {
-    println!("Hello World!");
-}
+    fn main() {
+        println!("Hello World!");
+    }
 ```
 
 ## Default behavior
