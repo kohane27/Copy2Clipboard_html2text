@@ -14,7 +14,7 @@ This add-on is built on [Copy2Clipboard](https://ankiweb.net/shared/info/1525025
 
 The original Copy2Clipboard copies the underlying html, which is probably not what you want. For example, given the following front side:
 
-![anki](./anki.png)
+![anki](./anki-front.png)
 
 the following content is copied:
 
